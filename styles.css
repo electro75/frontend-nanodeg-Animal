@@ -1,19 +1,25 @@
 /* add your CSS here */
 body{
+  background-image:url('backgound.jpg');
+  display:flex;
+  flex-wrap: wrap;
   font-family: 'Raleway', sans-serif;
+}
+.container{
+  margin-left:300px;
   width:400px;
-  -webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.75);
-  box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 5px 4px 0px rgba(0,0,0);
+  -moz-box-shadow: 5px 5px 4px 0px rgba(0,0,0,0);
+  box-shadow: 5px 5px 4px 0px rgba(0,0,0,0);
 }
 .title{
-  margin: 8px;
+  text-align:center;
 
 }
 .image{
-  width:300px;
+  width:330px;
   height:200px;
-  margin:8px;
+  margin:15px;
 }
 ul{
   list-style-type: none;
@@ -32,12 +38,15 @@ span{
     border:3px solid;
     border-width: thin;
     margin:8px;
-
+  background-color:rgba(200,200,200.9);
 }
 .info{
   border:1px solid;
   display: block;
   margin:8px;
+  background-color: rgba(100,100,100,0.7);
+  color:white;
+  overflow:auto;
 }
 .content{
   margin:8px;
