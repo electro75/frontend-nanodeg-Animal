@@ -1,6 +1,6 @@
 /* add your CSS here */
 body{
-  background-image:url('backgound.jpg');
+  /*background-image:url('backgound.jpg');*/
   display:flex;
   flex-wrap: wrap;
   font-family: 'Raleway', sans-serif;
@@ -38,7 +38,7 @@ span{
     border:3px solid;
     border-width: thin;
     margin:8px;
-  background-color:rgba(200,200,200.9);
+    background-color:rgba(200,200,200.9);
 }
 .info{
   border:1px solid;
