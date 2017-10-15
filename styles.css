@@ -1,5 +1,9 @@
 /* add your CSS here */
 /* entire container, keeps perspective */
+*{
+	font-family: 'Gloria Hallelujah', cursive;
+	color:white;
+}
 .flip-container {
 	perspective: 1000px;
 }
@@ -12,6 +16,7 @@
 	width: 734px;
 	height: 480px;
 	margin:auto;
+	border: 2px solid black;
 }
 
 /* flip speed goes here */
@@ -41,6 +46,7 @@
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+	background: url('curls.png');
 	/*margin: :auto;*/
 }
 /*.image{
